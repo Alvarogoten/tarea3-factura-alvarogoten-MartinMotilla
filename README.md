@@ -20,10 +20,10 @@ Captura del programa funcionando: capturas/reto2.png
 ## Reto 3 · Depuración del error lógico
 | Variable | Valor esperado | Valor real |
 |----------|----------------|------------|
-| descuento |               |            |
-| total     |               |            |
-- Línea del error y explicación:
-- Corrección:
+| descuento |    18,00      |     6,00   |
+| total     |    123,42     |   137,94   |
+- Línea del error y explicación: Linea 27, el programa no hacia bien el cacula ya que no tenia encuenta la suma del descuento por no ser añadida
+- Corrección: añadir  "descuento = descuento + base * 0.05;"
 - Mi propia prueba (producto, precio, cantidad, socio → total):
 Captura del depurador: capturas/reto3.png
 
