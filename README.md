@@ -14,7 +14,7 @@ Porque el archivo comete errores
 |----|-------|------------------|--------------------------------------|------------|
 | 1  | 15 | error: illegal character: '#' | sintaxis | double precio = nextDouble(); |
 | 2  | 17 | error: ';' expected / int cantidad = sc.nextInt() | sintaxis | int cantidad = sc.nextInt(); |
-| 3  | 29 |  | semántica | double total = (base - descuento) * (1 + IVA); |
+| 3  | 29 |   | semántica | double total = (base - descuento) * (1 + IVA); |
 Captura del programa funcionando: capturas/reto2.png
 
 ## Reto 3 · Depuración del error lógico
