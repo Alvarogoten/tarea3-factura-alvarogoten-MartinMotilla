@@ -3,18 +3,18 @@ Pareja: (nombre 1) y (nombre 2) · GitHub: (usuario 1), (usuario 2)
 
 ## Reto 1 · Compilar desde la terminal
 - Comando usado y resultado (captura: capturas/reto1.png)
-- ¿Qué es Factura.java?  Es el archivo de código fuente
+- ¿Qué es Factura.java? Es el archivo de código fuente
 ¿Y Factura.class? Es el archivo que se convierte en bytecode
 ¿Quién ejecuta el .class? Lo ejecuta JVM, es quien interpreta el bytecode
 - ¿Por qué no se ha generado Factura.class la primera vez?
+Porque el archivo comete errores
 
 ## Reto 2 · Errores de compilación
-| Nº | Línea | Mensaje de javac            | Tipo (léxico / sintaxis / semántica) | Corrección |
-|----|------|--------------------------------------|-----------------------------------------------|----------------|
-| 1  |  15 |   error: illegal character: '#'  |           sintactico                               |   double precio = nextDouble(); |
-| 2  |  17 | error: ';' expected
-        int cantidad = sc.nextInt()            |   LEXICO                 | int cantidad = sc.nextInt();          |
-| 3  |    29   |                  |                    SEMANTICO                  |            | double total = (base - descuento) * (1 + IVA);
+| Nº | Línea | Mensaje de javac | Tipo (léxico / sintaxis / semántica) | Corrección |
+|----|-------|------------------|--------------------------------------|------------|
+| 1  | 15 | error: illegal character: '#' | sintaxis | double precio = nextDouble(); |
+| 2  | 17 | error: ';' expected / int cantidad = sc.nextInt() | sintaxis | int cantidad = sc.nextInt(); |
+| 3  | 29 |  | semántica | double total = (base - descuento) * (1 + IVA); |
 Captura del programa funcionando: capturas/reto2.png
 
 ## Reto 3 · Depuración del error lógico
