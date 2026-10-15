@@ -1,5 +1,5 @@
 # Tarea 3 · La factura bajo el microscopio
-Pareja: (nombre 1) y (nombre 2) · GitHub: (usuario 1), (usuario 2)
+Pareja: Alvaro Gil y Martin Motilla · GitHub: Alvarogoten, MartinMotilla
 
 ## Reto 1 · Compilar desde la terminal
 - Comando usado y resultado (captura: capturas/reto1.png)
@@ -43,4 +43,23 @@ Errores	Permite probar los cálculos por separado.	Es más difícil comprobar ca
 
 ## Reto 5 · ¿Qué lenguaje elegirías?
 - Caso A (web de la tienda):
+
+    Tipo de lenguaje: Interpretado
+
+        Justificación de criterios:
+            
+            Tipo de proyecto: Al ejecutarse directamente en el navegador el estandar sera javascript.
+
+            Portabilidad: Al ejecutarse en navegador, funcionara en cualquier dispositivo, lo que da una alta portabilidad.
+
+
 - Caso B (propuesta en ensamblador):
+
+    Tipo de lenguaje: Ensamblador
+
+        Justificación de criterios:
+            
+            Rendimiento: Tendra un mayor rendimiento pero no sera mas rapido en todos los ordenadores debido a problemas en la portabilidad.
+
+            Portabilidad: El codigo estara atado a un procesador en especifico, con lo que no funcionara en otros sin ser reescrito por completo, lo que dificulta el rendimiento.
+
